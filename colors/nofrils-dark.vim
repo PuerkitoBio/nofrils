@@ -126,6 +126,10 @@ hi Type		        term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=N
 hi Underlined		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 " }}}
 
+" Markdown links {{{
+hi link markdownCode Special
+" }}}
+
 " Optional Syntax Features {{{
 if g:nofrils_strbackgrounds
     hi String		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=233	gui=NONE	guifg=NONE	guibg=#121212
